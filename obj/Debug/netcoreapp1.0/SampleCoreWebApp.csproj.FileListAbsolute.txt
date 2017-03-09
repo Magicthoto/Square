@@ -1,0 +1,10 @@
+/Users/thomas/Projects/SampleCoreWebApp/bin/Debug/netcoreapp1.0/SampleCoreWebApp.db
+/Users/thomas/Projects/SampleCoreWebApp/bin/Debug/netcoreapp1.0/SampleCoreWebApp.deps.json
+/Users/thomas/Projects/SampleCoreWebApp/bin/Debug/netcoreapp1.0/SampleCoreWebApp.runtimeconfig.json
+/Users/thomas/Projects/SampleCoreWebApp/bin/Debug/netcoreapp1.0/SampleCoreWebApp.runtimeconfig.dev.json
+/Users/thomas/Projects/SampleCoreWebApp/bin/Debug/netcoreapp1.0/SampleCoreWebApp.dll
+/Users/thomas/Projects/SampleCoreWebApp/bin/Debug/netcoreapp1.0/SampleCoreWebApp.pdb
+/Users/thomas/Projects/SampleCoreWebApp/obj/Debug/netcoreapp1.0/UserSecretsAssemblyInfo.cs
+/Users/thomas/Projects/SampleCoreWebApp/obj/Debug/netcoreapp1.0/SampleCoreWebApp.AssemblyInfo.cs
+/Users/thomas/Projects/SampleCoreWebApp/obj/Debug/netcoreapp1.0/SampleCoreWebApp.dll
+/Users/thomas/Projects/SampleCoreWebApp/obj/Debug/netcoreapp1.0/SampleCoreWebApp.pdb
