@@ -5,9 +5,9 @@
 
 | Branches                | Build     | QA                                                                                                                    |
 |-----------------------------|--------------|---------------------------------------------------------------------------------------------------------------------------|
-| Master 						| [![Build Status](https://travis-ci.org/Magicthoto/Square.svg?branch=master)](https://travis-ci.org/Magicthoto/Square) | todo |
-| Integration 				| [![Build Status](https://travis-ci.org/Magicthoto/Square.svg?branch=integ)](https://travis-ci.org/Magicthoto/Square) | todo |
-| Dev-Thomas 				| [![Build Status](https://travis-ci.org/Magicthoto/Square.svg?branch=Dev-Thomas)](https://travis-ci.org/Magicthoto/Square) | todo |
+| Master 						| [![Build Status](https://travis-ci.org/Magicthoto/Square.svg?branch=master)](https://travis-ci.org/Magicthoto/Square) | [![Coverage Status](https://coveralls.io/repos/github/Magicthoto/Square/badge.svg?branch=master)](https://coveralls.io/github/Magicthoto/Square?branch=master) |
+| Integration 				| [![Build Status](https://travis-ci.org/Magicthoto/Square.svg?branch=integ)](https://travis-ci.org/Magicthoto/Square) | [![Coverage Status](https://coveralls.io/repos/github/Magicthoto/Square/badge.svg?branch=integ)](https://coveralls.io/github/Magicthoto/Square?branch=master) |
+| Dev-Thomas 				| [![Build Status](https://travis-ci.org/Magicthoto/Square.svg?branch=Dev-Thomas)](https://travis-ci.org/Magicthoto/Square) | [![Coverage Status](https://coveralls.io/repos/github/Magicthoto/Square/badge.svg?branch=master)](https://coveralls.io/github/Magicthoto/Square?branch=Dev-Thomas) |
  
 Dépôt à but éducatif. Les objectifs sont :
 - De réaliser une application ASP.NET Core MVC 5
