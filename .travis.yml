@@ -1,6 +1,6 @@
 language: csharp
 before_install:
-  - chmod +x ./build.sh
+  - chmod +x build.sh
 sudo: required
 dist: trusty
 mono: none
