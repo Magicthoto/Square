@@ -10,8 +10,6 @@
 #     - Dev-Thomas
 # script:
 #     - ./build.sh
-
-	
 language: csharp
 before_install:
   - chmod +x build.sh
