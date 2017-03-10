@@ -1,1 +1,1 @@
-dotnet restore && dotnet build ./appsettings.json
+dotnet restore && dotnet build
