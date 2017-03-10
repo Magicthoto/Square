@@ -1,5 +1,4 @@
 #!/bin/bash
 set -ev
 dotnet restore
-dotnet test
-dotnet build -c Release
+dotnet build -s ./SampleCoreWebApp.csproj -c Release
