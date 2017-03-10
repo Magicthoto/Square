@@ -1,54 +1,23 @@
-# language: csharp
-# before_install:
-#   - chmod +x build.sh
-# sudo: required
-# dist: trusty
-# mono: none
-# dotnet: 1.0.0-preview2-003131
-# branches:  
-#   only:
-#     - Dev-Thomas
-# script:
-#     - ./build.sh
 language: csharp
-before_install:
-  - chmod +x build.sh
-
-os:
-  - linux
-  - osx
- 
-# .NET CLI require Ubuntu 14.04
 sudo: required
 dist: trusty
+mono: none
+dotnet: 1.0.0-preview2-003121
+
+branches:
+  only:
+  - Dev-Thomas
+
 addons:
   apt:
+    sources:
+    - sourceline: 'deb [arch=amd64] https://apt-mo.trafficmanager.net/repos/dotnet-release/ trusty main'
+      key_url: 'https://apt-mo.trafficmanager.net/keys/microsoft.asc'
     packages:
-    - gettext
-    - libcurl4-openssl-dev
-    - libicu-dev
-    - libssl-dev
-    - libunwind8
-    - zlib1g
- 
-# .NET CLI requires OSX 10.11
-osx_image: xcode7.2
- 
-# Ensure that .NET Core is installed
-dotnet: 1.0.0-preview2-003131
-branches:  
-  only:
-    - Dev-Thomas
-# Ensure Mono is installed
-mono: none
- 
-env:
-    # Set the DOTNET_SKIP_FIRST_TIME_EXPERIENCE environment variable to stop wasting time caching packages
-  - DOTNET_SKIP_FIRST_TIME_EXPERIENCE=true
-    # Disable sending usage data to Microsoft
-  - DOTNET_CLI_TELEMETRY_OPTOUT=true
- 
-# You must run this command to give Travis permissions to execute the build.sh shell script:
-# git update-index --chmod=+x build.sh
+    - dotnet-dev-1.0.1
+
+before_script:
+  dotnet restore
+
 script:
-  - ./build.sh
+  dotnet build
