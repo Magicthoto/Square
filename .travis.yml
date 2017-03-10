@@ -9,5 +9,5 @@ dotnet: 1.0.0-preview2-003131
 branches:  
   only:
     - Dev-Thomas
-script:
-  - ./build.sh
+# script:
+#   - ./build.sh
