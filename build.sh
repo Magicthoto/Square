@@ -1,2 +1,2 @@
-dotnet restore
+dotnet restore ./SampleCoreWebApp.csproj
 dotnet build ./SampleCoreWebApp.csproj
